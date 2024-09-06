@@ -2,7 +2,8 @@
   imports = [
     ../../../common/cpu/amd
     ../../../common/gpu/amd
-    ../../../common/gpu/amd/southern-islands
+    ../../../common/pc/laptop
+    ../../../common/pc/laptop/acpi_call.nix
   ];
 
   # Blacklist ideapad-laptop because it keeps resetting rfkill devices
